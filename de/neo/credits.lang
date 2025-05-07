@@ -1,0 +1,25 @@
+{
+    "code": "de",
+    "translations": {
+        "Credits": {
+            "AwesomePeople": {
+                "title": "Tolle Menschen",
+                "description": "Dieses Projekt erhielt viel Hilfe, Unterstützung, Forschung und Wissen von den unten genannten Personen. Ohne sie wäre das Projekt nicht da, wo es heute steht."
+            },
+            "CoreDevs": {
+                "title": "Core-Entwickler",
+                "description": "Ohne die oben genannten Leute wäre das alles nicht möglich gewesen. Also vielen Dank! Aber wir dachten uns, wir müssen hier auch unsere eigenen Infos unterbringen... ihr wisst schon, für die Wissenschaf..."
+            },
+            "supportPatreon": "Support uns auf Patreon!",
+            "Translators": {
+                "title": "${label} translators",
+                "description": "Großartige Mitglieder der Community, die bei der Übersetzung von Pokélink ins ${label} geholfen haben.",
+                "members": [
+                    "Jezzabel",
+                    "NimbusFox",
+                    "xLinktv"
+                ]
+            }
+        }
+    }
+}

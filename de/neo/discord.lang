@@ -1,0 +1,11 @@
+{
+    "code": "de",
+    "translations": {
+        "Discord": {
+            "authorize": "Um Pokélink zu nutzen, musst du dich erst über Discord autorisieren.",
+            "login": "Login mit Discord",
+            "waiting": "Warte auf Antwort....",
+            "notAuthorized": "Dir ist die Nutzung dieser Pokélink Version nicht erlaubt!"
+        }
+    }
+}

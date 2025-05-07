@@ -2,5 +2,45 @@
     "code": "de",
     "pkhex": {
         "language": "de"
+    },
+    "pokemon": {
+        "nature": {
+            "25": "N/A",
+            "none": "${pokemon.nature.25}"
+        },
+        "type": {
+            "shadow": "Crypto",
+            "???": "???"
+        },
+        "move": {
+            "shadow_blitz": "Cryptoknall",
+            "shadow_rush": "Cryptoschlag",
+            "shadow_break": "Cryptohieb",
+            "shadow_end": "Cryptoretour",
+            "shadow_wave": "Cryptowelle",
+            "shadow_rave": "Cryptobeben",
+            "shadow_storm": "Cryptosturm",
+            "shadow_fire": "Cryptofeuer",
+            "shadow_bolt": "Cryptoblitz",
+            "shadow_chill": "Cryptofrost",
+            "shadow_blast": "Cryptostrahl",
+            "shadow_sky": "Cryptowetter",
+            "shadow_hold": "Cryptofessel",
+            "shadow_mist": "Cryptodunst",
+            "shadow_panic": "Cryptochaos",
+            "shadow_down": "Cryptobann"
+        },
+        "form": {
+            "large_busted": "Large Busted",
+            "unknown": "Unbekannt"
+        },
+        "status": {
+            "healthy": "Gesund",
+            "poisoned": "Vergiftet",
+            "asleep": "Schlafend",
+            "paralyzed": "Paralisiert",
+            "frozen": "Eingefroren",
+            "burned": "Verbrennt"
+        }
     }
 }
