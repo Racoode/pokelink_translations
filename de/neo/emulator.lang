@@ -1,0 +1,63 @@
+{
+    "code": "de",
+    "translations": {
+        "Emulator": {
+            "connecting": "Verbinde ${emulator}...",
+            "waitingForConnection": "Warte auf Verbindung zu ${emulator}...",
+            "emulatorText": "Emulator: ${emulator}",
+            "Error": {
+                "Bizhawk": {
+                    "missingMono": "Bitte installiere Mono Packet für distro.",
+                    "missingDotFx": "Bitte Installiere dotnet v4.8 oder starte Bizhawk's vorausgesetztes Installationsprogramm.",
+                    "unsupportedOS": "Bizhawk läuft nicht auf diesem OS",
+                    "missingLaunchScript": "Dem Emulator fehlt der launch script EmuHawkMono.sh."
+                },
+                "DeSmuME": {
+                    "unknownScriptError": "Unbekannter Skripterror. Bitte kontaktiere uns über unserem Pokélink-Discord."
+                },
+                "invalidEmulator": "Die ausgewählte Emulator.exe ist nicht gültig.",
+                "invalidEmulatorTitle": "Ungültiger Emulator",
+                "unsupportedEmulatorVersion": "Nicht unterstützte Version von ${emulator}. Pokélink unterstützt: ${supportedVersions}",
+                "unknownEmulatorVersion": "Unbekannte Version von ${emulator}",
+                "noEmulatorSpecified": "Das ausgewählte Spiel hat kein spezifischen Emulator ausgwählt der untersützt wird. Bitte melde dies dem Plugin Ersteller."
+            },
+            "Starting": {
+                "title": "Starte Emulator",
+                "description": "Bitte warte bis wir den Emulator gestartet und verbunden haben.",
+                "bizhawk": "Sollte Bizhawk fragen, ob Sie ein externes Tool laden möchten, klicken Sie auf Ja, damit Pokélink mit Bizhawk kommunizieren kann.",
+                "InitializeConfig": {
+                    "title": "Erstelle installation Konfiguration.",
+                    "description": "Bitte schließen Sie den Emulator, sobald er gestartet ist, damit er die Standardkonfigurationen erstellen kann."
+                }
+            },
+            "Setup": {
+                "existing": "Benutze existierenden Emulator.",
+                "setupNew": "Wähle einen anderen Emulator.",
+                "downloadEmulator": "${emulator} wird gedownloadet",
+                "dropFile": "Ziehen Sie das Archiv oder die EXE-Datei von ${emulator} per Drag & Drop in das Fenster.",
+                "invalidFile": "Ungültige Datei ausgewählt"
+            },
+            "Bizhawk": {
+                "name": "Bizhawk",
+                "ConfigItems": {
+                    "EnableRealTimeClock": {
+                        "name": "Aktivieren Sie die Echtzeituhr",
+                        "description": "Ermöglicht Bizhawk, die Uhr Ihres Computers für zeitbasierte Ereignisse in Spielen zu verwenden."
+                    }
+                },
+                "downloadDependenciesInstructions": "Klicken Sie auf die Schaltfläche unten, um die Download-Seite zu öffnen. Klicken Sie anschließend auf die Datei bizhawk_prereqs_vxxxx.zip. Öffnen Sie die Zip-Datei nach dem Download mit einem Doppelklick. Darin befindet sich die Datei bizhawk_prereqs.exe. Doppelklicken Sie darauf und folgen Sie den Anweisungen. Sobald der Download abgeschlossen ist, können Sie mit dem nächsten Schritt fortfahren.",
+                "downloadInstructions": "Klicken Sie auf die Schaltfläche unten, um die Download-Seite zu öffnen. Klicken Sie anschließend auf die Datei ${fileName}. Nach dem Download schließen Sie den Dialog und ziehen die Datei ${extension} auf Pokélink."
+            },
+            "Desmume": {
+                "name": "DeSmuME",
+                "copyLua": "Kopieren Sie den folgenden Dateipfad in das Lua-Skriptfenster",
+                "copyLua2": "Dies kann durch Aufrufen von Tools > Lua Scripting > New Lua Script Window in DeSmuME erfolgen (achten Sie darauf, dieses Fenster nicht zu schließen, Sie können es jedoch minimieren).",
+                "downloadInstructions": "Klicken Sie auf die Schaltfläche unten, um Ihren Browser zu öffnen und die Desmume-ZIP-Datei herunterzuladen. Schließen Sie nach dem Download den Dialog und ziehen Sie die ZIP-Datei auf Pokélink."
+            },
+            "Azahar": {
+                "name": "Citra / Lime3DS / Azahar",
+                "downloadInstructions": "Klicken Sie auf die Schaltfläche unten, um die Download-Seite zu öffnen. Klicken Sie anschließend auf die Datei ${fileName}. Nach dem Download schließen Sie den Dialog und ziehen die Datei ${extension} auf Pokélink."
+            }
+        }
+    }
+}
